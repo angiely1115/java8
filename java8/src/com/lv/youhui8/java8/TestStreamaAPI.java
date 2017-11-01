@@ -94,7 +94,7 @@ public class TestStreamaAPI {
 			.filter((e) -> {
 				System.out.println("短路！"); // &&  ||
 				return e.getSalary() >= 5000;
-			}).limit(3)
+			}).limit(2)
 			.forEach(System.out::println);
 	}
 	

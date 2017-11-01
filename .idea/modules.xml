@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud_config_client/cloud_config_client.iml" filepath="$PROJECT_DIR$/cloud_config_client/cloud_config_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_config_server/cloud_config_server.iml" filepath="$PROJECT_DIR$/cloud_config_server/cloud_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo-api/demo-api.iml" filepath="$PROJECT_DIR$/demo/demo-api/demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo-service/demo-service.iml" filepath="$PROJECT_DIR$/demo/demo-service/demo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureke_client/eureke_client.iml" filepath="$PROJECT_DIR$/eureke_client/eureke_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/feign.iml" filepath="$PROJECT_DIR$/service-feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
+      <module fileurl="file://F:/java8/source/java8-day01/java8-day01.iml" filepath="F:/java8/source/java8-day01/java8-day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zipken/server-zipken.iml" filepath="$PROJECT_DIR$/server-zipken/server-zipken.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka/springcloud_eureka.iml" filepath="$PROJECT_DIR$/springcloud_eureka/springcloud_eureka.iml" />
+    </modules>
+  </component>
+</project>

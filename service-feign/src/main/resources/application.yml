@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:7861/eureka/
+server:
+  port: 7865
+spring:
+  application:
+    name: service-feign
+  zipkin:
+    base-url: http://localhost:9000
+feign:
+  hystrix:
+    enabled: true

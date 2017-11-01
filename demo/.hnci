@@ -1,0 +1,6 @@
+{
+    "buildType": "maven",
+    "mavenCmd": "-DskipTests=true clean package",
+    "jarRelPath": "demo-service/target/demo-service.jar",
+    "javaOpts": "-Xms1024m -Xmx1024m"
+}

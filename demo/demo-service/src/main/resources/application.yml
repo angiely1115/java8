@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+
+server:
+  port: 8080
+
+hnSwagger:
+  basePackage: com.huinong.demo.web.controller
+  title: 基础架构
+  description: 惠农架构组描述

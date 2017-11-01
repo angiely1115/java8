@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud_config_client" />
+        <module name="cloud_config_server" />
+        <module name="demo-api" />
+        <module name="demo-service" />
+        <module name="eureke_client" />
+        <module name="feign" />
+        <module name="server-zipken" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
+        <module name="springcloud_eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud_config_client" target="1.8" />
+      <module name="cloud_config_server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demo-api" target="1.8" />
+      <module name="demo-service" target="1.8" />
+      <module name="eureke_client" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="server-sleuth" target="1.8" />
+      <module name="server-zipken" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="springcloud_eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

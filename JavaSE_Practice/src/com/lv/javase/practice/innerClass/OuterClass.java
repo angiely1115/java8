@@ -1,7 +1,6 @@
 package com.lv.javase.practice.innerClass;
 
 
-
 /**
  * @Author lvrongzhuan
  * @desc: 内部类

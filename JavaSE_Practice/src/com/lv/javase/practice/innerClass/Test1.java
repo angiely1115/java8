@@ -1,5 +1,7 @@
 package com.lv.javase.practice.innerClass;
 
+import com.lv.javase.practice.innerClass.OuterClass;
+
 /**
  * @Author lvrongzhuan
  * @desc: 继承内部类
@@ -9,5 +11,9 @@ package com.lv.javase.practice.innerClass;
 public class Test1 extends OuterClass.InnerClass.InnerClass2{
     Test1(OuterClass.InnerClass wi) {
         wi.super();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Integer.MAX_VALUE*2);
     }
 }

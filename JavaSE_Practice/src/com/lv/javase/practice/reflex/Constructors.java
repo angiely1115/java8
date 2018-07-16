@@ -1,5 +1,7 @@
 package com.lv.javase.practice.reflex;
 
+import com.lv.javase.practice.singleton.SingletonTest;
+
 import java.lang.reflect.Constructor;
 
 /*
@@ -53,6 +55,14 @@ public class Constructors {
         //调用构造方法  
         con.setAccessible(true);//暴力访问(忽略掉访问修饰符)
         obj = con.newInstance(66);
+
+        Class aClass = SingletonTest.class;
+        Constructor singletonC = aClass.getDeclaredConstructor(null);
+        singletonC.setAccessible(true);
+        SingletonTest singletonTest = (SingletonTest) singletonC.newInstance();
+        System.out.println(singletonTest);
+        System.out.println(SingletonTest.getSingleton());
+
     }  
       
 }  

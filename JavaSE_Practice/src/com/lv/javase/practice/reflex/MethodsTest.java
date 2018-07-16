@@ -13,11 +13,12 @@ public class MethodsTest {
         //1.获取Class对象
         Class stuClass = Student.class;
         //2.获取所有公有方法
-        System.out.println("***************获取所有的”公有“方法*******************");
+        System.out.println("***************获取所有的”公有“方法包括父类的*******************");
         stuClass.getMethods();
         Method[] methodArray = stuClass.getMethods();
         for(Method m : methodArray){
-            System.out.println(m);
+//            System.out.println(m);
+            System.out.println("getDeclaringClass:"+m.getDeclaringClass()+"  methodName:"+m.getName());
         }
         System.out.println("***************获取所有的方法，包括私有的*******************");
         methodArray = stuClass.getDeclaredMethods();
@@ -41,6 +42,7 @@ public class MethodsTest {
         //反射main方法
         Method main = stuClass.getMethod("main",String[].class);
         main.invoke(null,(Object)new String[]{"a"});
+
 
     }
 }
